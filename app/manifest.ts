@@ -1,0 +1,1 @@
+import type {MetadataRoute} from 'next'; export default function manifest():MetadataRoute.Manifest{return{name:'Love Sync',short_name:'Love Sync',description:'Two Birth Dates. One Love Score.',start_url:'/',display:'standalone',background_color:'#07030d',theme_color:'#07030d',icons:[]}}

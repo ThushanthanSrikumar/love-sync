@@ -1,0 +1,4 @@
+import type { Metadata } from "next";
+import "./globals.css";
+export const metadata: Metadata={title:"Love Sync — Two Birth Dates. One Love Score.",authors:[{name:"Thushanthan Srikumar"}],creator:"Thushanthan Srikumar",publisher:"Thushanthan Srikumar",description:"A playful love percentage calculator using two dates of birth and the Love Sync plus-pairing algorithm.",keywords:["love calculator","love percentage","date of birth love calculator","love sync","compatibility calculator"],metadataBase:new URL("https://love-sync.example"),openGraph:{title:"Love Sync ❤️",description:"Two Birth Dates. One Love Score.",type:"website"},twitter:{card:"summary_large_image",title:"Love Sync ❤️",description:"Two Birth Dates. One Love Score."},robots:{index:true,follow:true}};
+export default function RootLayout({children}:{children:React.ReactNode}){return <html lang="en"><body>{children}</body></html>}
